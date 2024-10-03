@@ -1,0 +1,15 @@
+.card {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(241, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(src/components/images/papaioannou-kostas-tysecUm5HJA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+  }
+
+  .mainbody{
+    background-color: rgb(176, 231, 234);
+  }
