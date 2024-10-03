@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ReusableButton = ({ handleClick, title ="click me", selectedUserID = '1' }) => {
+const ReusableButton = ({ handleClick, title ="click me", selectedProductID = '1' }) => {
 
 
-    // Let's give the button some styling 
-    // We can use the style attribute to add inline styling 
+    //button styling 
+   
     const buttonStyle = {
         backgroundColor: 'blue',
         color: 'white',
@@ -30,7 +30,3 @@ const ReusableButton = ({ handleClick, title ="click me", selectedUserID = '1' }
   }
   
   export default ReusableButton
-
-//   <div>
-//   <button style={buttonStyle} onClick={props.handleClick}>Click Me</button>
-// </div>
